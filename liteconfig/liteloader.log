@@ -1,0 +1,359 @@
+[07:39:52] [main/INFO]: LiteLoader 1.12.2 starting up...
+[07:39:52] [main/INFO]: Active Pack: 1.12.2-SNAPSHOT-r4CC2BB0-b4-4
+[07:39:52] [main/INFO]: Java reports OS="windows 10"
+[07:39:52] [main/INFO]: Adding supported mod class prefix 'LiteMod'
+[07:39:52] [main/INFO]: Enumerating class path...
+[07:39:52] [main/INFO]: Class path separator=";"
+[07:39:52] [main/INFO]: Class path entries=(
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\mumfrey\liteloader\1.12.2-SNAPSHOT\liteloader-1.12.2-SNAPSHOT.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2855\forge-1.12.2-14.23.5.2855.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\ow2\asm\asm-debug-all\5.2\asm-debug-all-5.2.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2_mc\scala-continuations-library_2.11-1.0.2_mc.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\scala-continuations-plugin_2.11.1-1.0.2_mc.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\libraries\optifine\OptiFine\1.12.2_HD_U_F5\OptiFine-1.12.2_HD_U_F5-installer.jar
+   classpathEntry=F:\eloole\CC新端[测试]\.minecraft\versions\GregTech：CrazyWorld\GregTech：CrazyWorld.jar
+)
+[07:39:52] [main/INFO]: Registering discovery module EnumeratorModuleClassPath: [<Java Class Path>]
+[07:39:52] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [F:\eloole\CC新端[测试]\.minecraft\mods]
+[07:39:52] [main/INFO]: Registering discovery module EnumeratorModuleFolder: [F:\eloole\CC新端[测试]\.minecraft\mods\1.12.2]
+[07:39:52] [main/INFO]: Registering enumerator plugin DefaultEnumeratorPlugin: [com.mumfrey.liteloader.core.api.DefaultEnumeratorPlugin@1a45193b]
+[07:39:52] [main/INFO]: Discovering valid mod files in folder F:\eloole\CC新端[测试]\.minecraft\mods
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'AE2WTLib-1.12.2-1.0.34.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\AE2WTLib-1.12.2-1.0.34.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'appliedenergistics2-rv6-stable-7.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\appliedenergistics2-rv6-stable-7.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'AsmodeusCore-1.12.2-0.0.23.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\AsmodeusCore-1.12.2-0.0.23.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'base-1.12.2-3.13.0.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\base-1.12.2-3.13.0.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'BetterQuesting-3.5.329.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\BetterQuesting-3.5.329.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'ChickenChunks-1.12.2-2.4.2.74-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\ChickenChunks-1.12.2-2.4.2.74-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'CodeChickenLib-1.12.2-3.2.3.358-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\CodeChickenLib-1.12.2-3.2.3.358-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'CoFHCore-1.12.2-4.6.6.1-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\CoFHCore-1.12.2-4.6.6.1-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'CoFHWorld-1.12.2-1.4.0.1-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\CoFHWorld-1.12.2-1.4.0.1-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'CommonCapabilities-1.12.2-2.4.7.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\CommonCapabilities-1.12.2-2.4.7.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'ContentTweaker-1.12.2-4.9.1.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\ContentTweaker-1.12.2-4.9.1.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Controlling-3.0.10.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Controlling-3.0.10.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'CraftTweaker2-1.12-4.1.20.613.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\CraftTweaker2-1.12-4.1.20.613.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Cuisine-0.5.22-build929.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Cuisine-0.5.22-build929.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'CustomMainMenu-MC1.12.2-2.0.9.1.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\CustomMainMenu-MC1.12.2-2.0.9.1.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'customstuff4-1.12.2-0.5.3.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\customstuff4-1.12.2-0.5.3.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'CyclopsCore-1.12.2-1.6.6.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\CyclopsCore-1.12.2-1.6.6.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'devtech-1.2.3.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\devtech-1.2.3.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'EnderCore-1.12.2-0.5.76.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\EnderCore-1.12.2-0.5.76.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'EnderIO-1.12.2-5.2.66.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\EnderIO-1.12.2-5.2.66.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'EnderStorage-1.12.2-2.4.5.136-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\EnderStorage-1.12.2-2.4.5.136-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'ExtraPlanets-1.12.2-0.7.0.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\ExtraPlanets-1.12.2-0.7.0.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'foamfix-0.10.5-1.12.2.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\foamfix-0.10.5-1.12.2.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'FTBLib-5.4.7.2.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\FTBLib-5.4.7.2.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'FTBUtilities-5.4.0.124.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\FTBUtilities-5.4.0.124.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Galacticraft-Planets-1.12.2-4.0.2.280.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Galacticraft-Planets-1.12.2-4.0.2.280.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'GalacticraftCore-1.12.2-4.0.2.280.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\GalacticraftCore-1.12.2-4.0.2.280.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'GalaxySpace-1.12.2-2.0.14.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\GalaxySpace-1.12.2-2.0.14.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'GasConduits-1.12.2-1.2.4.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\GasConduits-1.12.2-1.2.4.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Gregicality-1.12.2-0.21.1.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Gregicality-1.12.2-0.21.1.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'gregtech-1.12.2-1.10.9.612.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\gregtech-1.12.2-1.10.9.612.jar
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\GTCW-Addon.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'i18nupdatemod-1.12.2-1.1.0.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\i18nupdatemod-1.12.2-1.1.0.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'immcraft-1.12-1.6.0.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\immcraft-1.12-1.6.0.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'ImmersiveEngineering-0.12-89.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\ImmersiveEngineering-0.12-89.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'immersivetech-1.12-1.3.10.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\immersivetech-1.12-1.3.10.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'IntegratedDynamics-1.12.2-1.1.10.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\IntegratedDynamics-1.12.2-1.1.10.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'IntegratedTunnels-1.12.2-1.6.13.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\IntegratedTunnels-1.12.2-1.6.13.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'InventoryTweaks-1.63.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\InventoryTweaks-1.63.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'inworldcrafting-1.12.2-1.2.0-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\inworldcrafting-1.12.2-1.2.0-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'jeiintegration_1.12.2-1.6.0.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\jeiintegration_1.12.2-1.6.0.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'jei_1.12.2-4.16.1.302.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\jei_1.12.2-4.16.1.302.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'jetif-1.12.2-1.5.2.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\jetif-1.12.2-1.5.2.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'journeymap-1.12.2-5.7.1.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\journeymap-1.12.2-5.7.1.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'JustEnoughCharacters-1.12.0-3.4.8.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\JustEnoughCharacters-1.12.0-3.4.8.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'JustEnoughEnergistics-1.12.2-1.0.8.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\JustEnoughEnergistics-1.12.2-1.0.8.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'JustEnoughResources-1.12.2-0.9.2.60.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\JustEnoughResources-1.12.2-0.9.2.60.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Kiwi-1.12.2-0.5.3.32.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Kiwi-1.12.2-0.5.3.32.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Mantle-1.12-1.3.3.55.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Mantle-1.12-1.3.3.55.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'mcjtylib-1.12-3.5.4.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\mcjtylib-1.12-3.5.4.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Mekanism-1.12.2-9.8.3.390.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Mekanism-1.12.2-9.8.3.390.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'MekanismGenerators-1.12.2-9.8.3.390.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\MekanismGenerators-1.12.2-9.8.3.390.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'MekanismTools-1.12.2-9.8.3.390.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\MekanismTools-1.12.2-9.8.3.390.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'MicdoodleCore-1.12.2-4.0.2.280.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\MicdoodleCore-1.12.2-4.0.2.280.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'MJRLegendsLib-1.12.2-1.2.0.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\MJRLegendsLib-1.12.2-1.2.0.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'modtweaker-4.0.18.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\modtweaker-4.0.18.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'modularmachinery-1.12.2-1.11.1.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\modularmachinery-1.12.2-1.11.1.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'MouseTweaks-2.10-mc1.12.2.jar'
+[07:39:52] [main/INFO]: Considering valid mod file: F:\eloole\CC新端[测试]\.minecraft\mods\MouseTweaks-2.10-mc1.12.2.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'MTLib-3.0.6.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\MTLib-3.0.6.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'natura-1.12.2-4.3.2.69.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\natura-1.12.2-4.3.2.69.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'OpenBlocks-1.12.2-1.8.1.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\OpenBlocks-1.12.2-1.8.1.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'OpenModsLib-1.12.2-0.12.2.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\OpenModsLib-1.12.2-0.12.2.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'p455w0rdslib-1.12.2-2.3.161.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\p455w0rdslib-1.12.2-2.3.161.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Patchouli-1.0-20.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Patchouli-1.0-20.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'PrimalChests-1.0.3.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\PrimalChests-1.0.3.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'PrimalCore-1.12.2-0.6.105.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\PrimalCore-1.12.2-0.6.105.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'PrimalTech-0.3.5.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\PrimalTech-0.3.5.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'questbook-3.1.1-1.12.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\questbook-3.1.1-1.12.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'RedstoneFlux-1.12-2.1.1.1-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\RedstoneFlux-1.12-2.1.1.1-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'RFExpansion-3.4.31.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\RFExpansion-3.4.31.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'StandardExpansion-3.4.173.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\StandardExpansion-3.4.173.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'theoneprobe-1.12-1.4.28.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\theoneprobe-1.12-1.4.28.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'ThermalExpansion-1.12.2-5.5.7.1-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\ThermalExpansion-1.12.2-5.5.7.1-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'ThermalFoundation-1.12.2-2.6.7.1-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\ThermalFoundation-1.12.2-2.6.7.1-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Totemic-1.12.2-0.11.6.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Totemic-1.12.2-0.11.6.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'Trapcraft-1.12-v2.4.3a-universal.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\Trapcraft-1.12-v2.4.3a-universal.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'WaterControlExtreme-1.0.2.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\WaterControlExtreme-1.0.2.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'WirelessCraftingTerminal-1.12.2-3.12.97.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\WirelessCraftingTerminal-1.12.2-3.12.97.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'WirelessFluidTerminal-1.12.2-1.0.4.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\WirelessFluidTerminal-1.12.2-1.0.4.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'WirelessInterfaceTerminal-1.12.2-1.0.2.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\WirelessInterfaceTerminal-1.12.2-1.0.2.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'WirelessPatternTerminal-1.12.2-1.0.3.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\WirelessPatternTerminal-1.12.2-1.0.3.jar
+[07:39:52] [main/INFO]: Inspecting jar metadata in 'zenutils-1.6.3.jar'
+[07:39:52] [main/INFO]: Ignoring F:\eloole\CC新端[测试]\.minecraft\mods\zenutils-1.6.3.jar
+[07:39:52] [main/INFO]: Discovering valid mod files in folder F:\eloole\CC新端[测试]\.minecraft\mods\1.12.2
+[07:39:52] [main/INFO]: Discovering tweaks on class path...
+[07:39:52] [main/INFO]: Baking listener list for EnumerationObserver with 1 listeners
+[07:39:52] [main/INFO]: Registering discovered mod files in folder F:\eloole\CC新端[测试]\.minecraft\mods
+[07:39:52] [main/INFO]: Adding newest valid mod file 'F:\eloole\CC新端[测试]\.minecraft\mods\MouseTweaks-2.10-mc1.12.2.jar' at revision 0.0000
+[07:39:52] [main/INFO]: Registering discovered mod files in folder F:\eloole\CC新端[测试]\.minecraft\mods\1.12.2
+[07:39:52] [main/INFO]: Initialising LiteLoader Mixins
+[07:39:52] [main/INFO]: LiteLoader PREINIT complete
+[07:39:56] [main/INFO]: FML detected, switching to searge mappings
+[07:41:17] [Client thread/INFO]: JInput Component Registry is initialising...
+[07:41:17] [Client thread/INFO]: Inspecting Keyboard controller HID Keyboard Device on Unknown...
+[07:41:17] [Client thread/INFO]: Inspecting Mouse controller HID-compliant mouse on Unknown...
+[07:41:17] [Client thread/INFO]: Inspecting Unknown controller Mi Wireless Combo on Unknown...
+[07:41:17] [Client thread/INFO]: Inspecting Unknown controller Mi Wireless Combo on Unknown...
+[07:41:17] [Client thread/INFO]: Inspecting Unknown controller Mi Wireless Combo on Unknown...
+[07:41:17] [Client thread/INFO]: Inspecting Unknown controller WordForum USB    on Unknown...
+[07:41:17] [Client thread/INFO]: Inspecting Unknown controller Mi Wireless Combo on Unknown...
+[07:41:17] [Client thread/INFO]: JInput Component Registry initialised, found 7 controller(s) 164 component(s)
+[07:41:17] [Client thread/INFO]: LiteLoader begin INIT...
+[07:41:17] [Client thread/INFO]: Baking listener list for CoreProvider with 2 listeners
+[07:41:17] [Client thread/INFO]: Injecting external mods into class path...
+[07:41:17] [Client thread/INFO]: F:\eloole\CC新端[测试]\.minecraft\mods\MouseTweaks-2.10-mc1.12.2.jar already exists on the classpath, skipping injection
+[07:41:17] [Client thread/INFO]: Injecting external mods into class path...
+[07:41:17] [Client thread/INFO]: Discovering mods on class path...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\mumfrey\liteloader\1.12.2-SNAPSHOT\liteloader-1.12.2-SNAPSHOT.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2855\forge-1.12.2-14.23.5.2855.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\ow2\asm\asm-debug-all\5.2\asm-debug-all-5.2.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2_mc\scala-continuations-library_2.11-1.0.2_mc.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2_mc\scala-continuations-plugin_2.11.1-1.0.2_mc.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\mojang\patchy\1.1\patchy-1.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\google\guava\guava\21.0\guava-21.0.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\mojang\realms\1.10.22\realms-1.10.22.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\libraries\optifine\OptiFine\1.12.2_HD_U_F5\OptiFine-1.12.2_HD_U_F5-installer.jar...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\versions\GregTech：CrazyWorld\GregTech：CrazyWorld.jar...
+[07:41:17] [Client thread/INFO]: Discovering mods in valid mod files...
+[07:41:17] [Client thread/INFO]: Searching F:\eloole\CC新端[测试]\.minecraft\mods\MouseTweaks-2.10-mc1.12.2.jar...
+[07:41:17] [Client thread/INFO]: Found 1 potential matches
+[07:41:17] [Client thread/INFO]: Discovering mods in valid mod files...
+[07:41:17] [Client thread/INFO]: Mod class discovery completed
+[07:41:17] [Client thread/INFO]: LiteLoader begin POSTINIT...
+[07:41:17] [Client thread/INFO]: Inhibiting sound handler reload
+[07:41:17] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.LiteLoaderEventBrokerClient for API LiteLoader core API
+[07:41:18] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.PacketEventsClient for API LiteLoader core API
+[07:41:18] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.client.ClientPluginChannelsClient for API LiteLoader core API
+[07:41:18] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.core.ServerPluginChannels for API LiteLoader core API
+[07:41:18] [Client thread/INFO]: Registering interface provider com.mumfrey.liteloader.messaging.MessageBus for API LiteLoader core API
+[07:41:18] [Client thread/INFO]: Discovered 1 total mod(s), injected 0 tweak(s)
+[07:41:18] [Client thread/INFO]: Loading mod from yalter.mousetweaks.liteloader.LiteModMouseTweaks
+[07:41:18] [Client thread/INFO]: Baking listener list for ModLoadObserver with 1 listeners
+[07:41:18] [Client thread/INFO]: Successfully added mod Mouse Tweaks version 2.10
+[07:41:18] [Client thread/INFO]: Adding "F:\eloole\CC新端[测试]\.minecraft\mods\MouseTweaks-2.10-mc1.12.2.jar" to active resource pack set
+[07:41:18] [Client thread/INFO]: Setting up "MouseTweaks-2.10-mc1.12.2.jar" as mod resource pack with identifier "Mouse Tweaks"
+[07:41:18] [Client thread/INFO]: Successfully added "F:\eloole\CC新端[测试]\.minecraft\mods\MouseTweaks-2.10-mc1.12.2.jar" to active resource pack set
+[07:41:18] [Client thread/INFO]: Initialising mod Mouse Tweaks version 2.10
+[07:41:18] [Client thread/INFO]: Baking listener list for InterfaceObserver with 0 listeners
+[07:42:46] [Client thread/INFO]: Baking listener list for ViewportListener with 0 listeners
+[07:42:46] [Client thread/INFO]: Sound handler reload inhibit removed
+[07:42:46] [Client thread/INFO]: Reloading sound handler
+[07:42:47] [Client thread/INFO]: Baking listener list for GameLoopListener with 0 listeners
+[07:42:47] [Client thread/INFO]: Baking listener list for RenderListener with 1 listeners
+[07:42:48] [Client thread/INFO]: Baking listener list for TickObserver with 3 listeners
+[07:42:48] [Client thread/INFO]: Baking listener list for PostRenderObserver with 3 listeners
+[07:42:48] [Client thread/INFO]: Baking listener list for Tickable with 0 listeners
+[07:42:48] [Client thread/INFO]: Baking listener list for FrameBufferListener with 0 listeners
+[07:43:13] [Client thread/INFO]: Baking listener list for ServerCommandProvider with 0 listeners
+[07:43:23] [Server thread/INFO]: Baking listener list for IEventState with 0 listeners
+[07:43:23] [Server thread/INFO]: Baking listener list for ServerTickable with 0 listeners
+[07:43:25] [Netty Server IO #1/INFO]: Generating new Event Handler Proxy Class com.mumfrey.liteloader.core.event.EventProxy
+[07:43:25] [Netty Server IO #1/INFO]: Successfully generated event handler proxy class with 124 handlers(s) and 124 total invocations
+[07:43:26] [Netty Local Client IO #0/INFO]: Baking listener list for PostLoginListener with 0 listeners
+[07:43:26] [Server thread/INFO]: Baking listener list for ServerPlayerListener with 0 listeners
+[07:43:26] [Server thread/INFO]: Baking listener list for IEventState with 1 listeners
+[07:43:27] [Client thread/INFO]: Baking listener list for PreJoinGameListener with 0 listeners
+[07:43:30] [Client thread/INFO]: Baking listener list for JoinGameListener with 0 listeners
+[07:43:30] [Client thread/INFO]: Baking listener list for PreRenderListener with 0 listeners
+[07:43:31] [Client thread/INFO]: Baking listener list for PostRenderListener with 0 listeners
+[07:43:31] [Client thread/INFO]: Baking listener list for HUDRenderListener with 0 listeners
+[07:43:31] [Client thread/INFO]: Baking listener list for WorldObserver with 2 listeners
+[07:43:31] [Client thread/INFO]: Baking listener list for ChatListener with 0 listeners
+[07:43:31] [Server thread/INFO]: Baking listener list for PlayerMoveListener with 0 listeners
+[07:43:33] [Client thread/INFO]: Baking listener list for EntityRenderListener with 0 listeners
+[07:46:49] [Client thread/INFO]: Baking listener list for OutboundChatFilter with 0 listeners
+[07:46:49] [Server thread/INFO]: Baking listener list for ServerChatFilter with 0 listeners
+[07:56:30] [Client thread/INFO]: LiteLoader is shutting down, shutting down core providers and syncing configuration
+[07:56:30] [Client thread/INFO]: Baking listener list for ShutdownObserver with 3 listeners
