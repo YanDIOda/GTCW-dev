@@ -1,0 +1,6 @@
+tile.contenttweaker.heat_resistant_clayblock.name=耐高温黏土块
+item.contenttweaker.knowledgedeveloping_dictionary.name=智力开发宝典
+fluid.LimeWater=石灰水
+item.contenttweaker.pulping_fiber.name=造纸纤维
+tile.contenttweaker.paperpress_nofiber.name=压纸器(无纤维)
+tile.contenttweaker.paperpress_havefiber.name=压纸器(有纤维)

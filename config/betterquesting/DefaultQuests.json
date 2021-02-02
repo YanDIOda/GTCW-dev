@@ -1,0 +1,1528 @@
+{
+  "format:8": "2.0.0",
+  "questDatabase:9": {
+    "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:repeating_command_block",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "整合包介绍",
+          "desc:8": "欢迎来游玩GTCW整合包（全称：GregTech CrazyWorld），是由颜DIO大，elo，wave三人创作的gt包，本整合包是纯科技整合包，所以魔法mod是不会存在于这个包的"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:red_flower",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "整合包世界背景",
+          "desc:8": "你，是格雷科技有限公司的一名实习员工，公司上层的大技师颜dio决定让全体实习员工去进行历练，熟悉如何成为一个合格的格雷员工。于是，颜dio和elo二人设计了一个世界模拟训练终端，Wave技师提供了训练基地以及其他的基础设施，就这样全体实习员工进入到了世界模拟终端里进行历练。"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:flint",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "新三样",
+          "desc:8": "木棍是可以通过打树叶获得的，燧石是可以直接通过沙砾合成的（照顾非酋），燧石片是通过手持燧石疯狂左键石头可以获得的，草绳是三个草纤维合成的，草纤维打草就有，概率很高。哦对了记得翻页"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stick",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "stickWood"
+            },
+            "1:10": {
+              "id:8": "minecraft:flint",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "primal:plant_cordage",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "cordagePlant"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:flint_knapp",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:cactus",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "善用JEI",
+          "desc:8": "JEI就是你背包里的那个搜索栏以及右边的东西，一定要学会搜索自己不知道合成是啥样的东西，这是魔改整合包，很多东西的合成和原来会有所不同！！！"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "4:10": {
+      "questID:3": 4,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:leather",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "平庸、简单的皮革处理",
+          "desc:8": "请尝试跟随jei的指引制作皮革吧"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:leather",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 16,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "5:10": {
+      "questID:3": 5,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bookshelf",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "任务书使用说明",
+          "desc:8": "所有是皇冠形状的任务都是主线任务，其余都是支线任务，可做可不做的哦"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "6:10": {
+      "questID:3": 6,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "primal:flint_hatchet",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "带星星到原始人的进步-制作工具",
+          "desc:8": "很庆幸，你是个会思考的北京猿人，你学会了去制作一个手斧，这个工具可以去处理你之前根本砍不动的树"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:flint_hatchet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 2,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "7:10": {
+      "questID:3": 7,
+      "preRequisites:11": [
+        6
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:log",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "要致富先撸树~",
+          "desc:8": "找一找你周围的树，砍掉它！"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:log",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": "logWood"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "8:10": {
+      "questID:3": 8,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:planks",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "切切切",
+          "desc:8": "木板现在可以用斧头对着砧板左键原木获得哦"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:planks",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "plankWood"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 1,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "9:10": {
+      "questID:3": 9,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "cuisine:chopping_board",
+            "Count:3": 1,
+            "tag:10": {
+              "BlockEntityTag:10": {
+                "cover:10": {
+                  "id:8": "minecraft:log",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "切切切",
+          "desc:8": "制作一个砧板"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "cuisine:chopping_board",
+              "Count:3": 1,
+              "tag:10": {
+                "BlockEntityTag:10": {
+                  "cover:10": {
+                    "id:8": "minecraft:log",
+                    "Count:1": 1,
+                    "Damage:2": 0
+                  }
+                }
+              },
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "10:10": {
+      "questID:3": 10,
+      "preRequisites:11": [
+        9
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "primal_tech:work_stump",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "原始的合成台",
+          "desc:8": "这个东西拥有和原版工作台类似的功能，但便捷性远不如原版的[制作一个工作桩]"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal_tech:work_stump",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "primal_tech:rock",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:grass",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "工作桩使用说明",
+          "desc:8": "工作桩上一个格子只能放置一个物品，根据jei放置好后，使用我刚才给你的石板进行多次右键就合成了"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "12:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "primal:flint_pickaxe",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "工具升级",
+          "desc:8": "更多的工具意味着你有更多的操作，如果你的沙砾不够了，可以使用冒险币进行合成"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "primal:flint_workblade",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "primal:flint_pickaxe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "primal:flint_shovel",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "primal:sword_crude_flint",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "primal:flint_shears",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "5:10": {
+              "id:8": "primal:flint_axe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "6:10": {
+              "id:8": "primal:flint_hoe",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "7:10": {
+              "id:8": "primal:flint_saw",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 5,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immcraft:chest",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "初级的存储",
+          "desc:8": "你的背包挺满的对吧，为什么不做一个初级的箱子呢？[制作一个Immersive Craft的箱子]"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immcraft:chest",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "14:10": {
+      "questID:3": 14,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:reeds",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "快乐造纸1",
+          "desc:8": "第一步，获取基础的原材料：甘蔗"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:reeds",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "15:10": {
+      "questID:3": 15,
+      "preRequisites:11": [
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:leather",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "武装自己",
+          "desc:8": "制作一套皮革套装"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:leather_helmet",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:leather_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:leather_leggings",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:leather_boots",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 10,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "16:10": {
+      "questID:3": 16,
+      "preRequisites:11": [
+        14
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "openblocks:tank",
+            "Count:3": 1,
+            "tag:10": {
+              "tank:10": {
+                "FluidName:8": "limewater",
+                "Amount:3": 16000
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "快乐造纸2",
+          "desc:8": "第二步，制作石灰水（把物品丢进液体里就可以形成哦）"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "17:10": {
+      "questID:3": 17,
+      "preRequisites:11": [
+        16
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "contenttweaker:pulping_fiber",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "快乐造纸3",
+          "desc:8": "制作造纸纤维、压纸器（无纤维）"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:pulping_fiber",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "contenttweaker:paperpress_nofiber",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 10,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 10,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [
+        17
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:paper",
+            "Count:3": 5,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "快乐造纸4",
+          "desc:8": "制作压纸器（有纤维），然后把它丢在地上静置200s就可以获得纸了"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:paper",
+              "Count:3": 5,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 10,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 10,
+              "Damage:2": 4,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [
+        12
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 1356,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "制作耐火黏土粉",
+          "desc:8": "小堆的耐火黏土粉有一个我们自己加的合成"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 28,
+              "Damage:2": 1356,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gtcwaddon:coins",
+              "Count:3": 10,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        19,
+        18,
+        4
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "智力开发宝典和粘土窑",
+          "desc:8": "智力开发宝典是公司上层送给你的一个礼物，里面有很多对后面的物品的指导的详细内容"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:knowledgedeveloping_dictionary",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "primal_tech:clay_kiln",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    }
+  },
+  "questLines:9": {
+    "0:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 32,
+          "x:3": -180,
+          "y:3": -32,
+          "id:3": 0,
+          "sizeY:3": 36
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": -72,
+          "id:3": 1,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -124,
+          "y:3": -24,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 88,
+          "x:3": -292,
+          "y:3": -52,
+          "id:3": 3,
+          "sizeY:3": 84
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
+          "y:3": -72,
+          "id:3": 4,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -176,
+          "y:3": 24,
+          "id:3": 5,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 44,
+          "x:3": -68,
+          "y:3": -36,
+          "id:3": 6,
+          "sizeY:3": 44
+        },
+        "7:10": {
+          "sizeX:3": 44,
+          "x:3": -4,
+          "y:3": -36,
+          "id:3": 7,
+          "sizeY:3": 44
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 36,
+          "id:3": 8,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 40,
+          "x:3": 52,
+          "y:3": -32,
+          "id:3": 9,
+          "sizeY:3": 40
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 136,
+          "y:3": -24,
+          "id:3": 10,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 136,
+          "y:3": -68,
+          "id:3": 11,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": -24,
+          "id:3": 12,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 180,
+          "y:3": 24,
+          "id:3": 13,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
+          "y:3": 24,
+          "id:3": 14,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": 292,
+          "y:3": -72,
+          "id:3": 15,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 228,
+          "y:3": 80,
+          "id:3": 16,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 296,
+          "y:3": 80,
+          "id:3": 17,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": 296,
+          "y:3": 24,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": 232,
+          "y:3": -24,
+          "id:3": 19,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": 292,
+          "y:3": -24,
+          "id:3": 20,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 0,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Tier-1 石器时代",
+          "icon:10": {
+            "id:8": "immcraft:rock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {},
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Tier-2 铁器时代",
+          "icon:10": {
+            "id:8": "thermalfoundation:tool.hammer_iron",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 1
+    }
+  },
+  "questSettings:10": {
+    "betterquesting:10": {
+      "livesdef:3": 3,
+      "pack_name:8": "",
+      "home_anchor_y:5": 0.0,
+      "livesmax:3": 10,
+      "home_anchor_x:5": 0.5,
+      "editmode:1": 1,
+      "hardcore:1": 0,
+      "home_image:8": "betterquesting:textures/gui/default_title.png",
+      "party_enable:1": 1,
+      "pack_version:3": 0,
+      "home_offset_x:3": -128,
+      "home_offset_y:3": 0
+    }
+  }
+}

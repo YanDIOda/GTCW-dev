@@ -1,0 +1,6 @@
+tile.contenttweaker.heat_resistant_clayblock.name=Heat Resistant Clayblock
+item.contenttweaker.knowledgedeveloping_dictionary.name=Knowledge Developing Dictionary
+fluid.LimeWater=Lime Water
+item.contenttweaker.pulping_fiber.name=Pulping Fiber
+tile.contenttweaker.paperpress_nofiber.name=PaperPresser(nofiber)
+tile.contenttweaker.paperpress_havefiber.name=PaperPresser(havefiber)
