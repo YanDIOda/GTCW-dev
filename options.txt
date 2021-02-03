@@ -90,6 +90,7 @@ key_[GC] 星图:50
 key_[GC] 打开飞船舱:33
 key_[GC] 切换传感器护目镜模式:37
 key_key.betterquesting.quests:41
+key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_keybind.togglehelmet.name:33
@@ -106,6 +107,7 @@ key_key.cycle_magnet_mode.desc:0
 key_key.open_wft.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
+key_smoothfont.key.guiOpen:199
 key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
