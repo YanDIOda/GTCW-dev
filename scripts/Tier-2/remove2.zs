@@ -8,10 +8,6 @@ val removingArray = [
 ] as IItemStack[];
 
 
-//Remove by OreDict
-val removingODArray = [
-] as IOreDictEntry[];
-
 //remove by Jeihide
 val removingJEIArray = [
 ] as IItemStack[];
@@ -27,10 +23,6 @@ val removingMODIDArray = [
 ] as string[];
 
 //Settlement
-for ods in removingODArray{
-    recipes.remove(ods);
-}
-
 for items in removingArray{
     recipes.remove(items);
 }
