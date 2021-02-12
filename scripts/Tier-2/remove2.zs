@@ -10,6 +10,10 @@ val removingArray = [
 
 //remove by Jeihide
 val removingJEIArray = [
+    <primal_tech:stone_grill>,
+    <minecraft:furnace>,
+    <gregtech:machine:15>,
+    <gregtech:machine:16>,
 ] as IItemStack[];
 
 
