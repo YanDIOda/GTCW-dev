@@ -85,19 +85,10 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_of.key.zoom:46
 key_key.toggle_shaders:0
-key_[GC] 星图:50
-key_[GC] 打开飞船舱:33
-key_[GC] 切换传感器护目镜模式:37
 key_key.betterquesting.quests:41
-key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
-key_keybind.togglehelmet.name:33
-key_keybind.togglechest.name:34
-key_keybind.togglelegs.name:35
-key_keybind.toggleboots.name:36
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
@@ -106,7 +97,7 @@ key_key.cycle_magnet_mode.desc:0
 key_key.open_wft.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
-key_smoothfont.key.guiOpen:199
+key_key.cofh.multimode:47
 key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
@@ -119,11 +110,6 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.cofh.multimode:47
-key_打开电力漫游车物品栏:34
-key_打开模块管理器:35
-key_打开发射检查表 GUI:25
-key_打开便携式 NASA 工作台 GUI:24
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
@@ -131,17 +117,27 @@ key_mekanism.key.voice:22
 key_ALT Menu:56
 key_Mode Switch:50
 key_Fly key:33
+key_waila.keybind.wailaconfig:82
+key_waila.keybind.wailadisplay:79
+key_waila.keybind.liquid:80
+key_waila.keybind.recipe:81
+key_waila.keybind.usage:75
 key_key.nextitem:26
 key_key.previtem:27
 key_key.placeitem:25
 key_key.debughandles:0
-key_key.toggleLiquids:38
-key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_invtweaks.key.sort:19
+key_开关喷气背包:45
+key_打开火箭界面:46
+key_切换 RCS:19
+key_向右旋转载具:32
+key_向左旋转载具:30
+key_向上移动载具:44
+key_向下移动载具:45
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
