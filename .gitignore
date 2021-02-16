@@ -14,8 +14,11 @@
 /liteconfig
 /versions
 /natives
-/config/config/jei
-.gitigrone
+/config/jei
+/config/InvTweaks.cfg
+/config/splash.properties
+/config/AppliedEnergistics2/VersionChecker.cfg
+/config/waila/waila.cfg
 README.md
 launcher_profiles.json
 options.txt
