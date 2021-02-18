@@ -32,4 +32,9 @@ usercache.json
 usernamecache.json
 GTCW-dev.jar
 hmclversion.cfg
-
+config/natura.cfg
+options.txt
+config/splash.properties
+*.properties
+config/InvTweaks.cfg
+config/AppliedEnergistics2/items.csv
