@@ -14,7 +14,11 @@
 /liteconfig
 /versions
 /natives
-.gitigrone
+/config/jei
+/config/InvTweaks.cfg
+/config/splash.properties
+/config/AppliedEnergistics2/VersionChecker.cfg
+/config/waila/waila.cfg
 README.md
 launcher_profiles.json
 options.txt
@@ -28,4 +32,9 @@ usercache.json
 usernamecache.json
 GTCW-dev.jar
 hmclversion.cfg
-
+config/natura.cfg
+options.txt
+config/splash.properties
+*.properties
+config/InvTweaks.cfg
+config/AppliedEnergistics2/items.csv
