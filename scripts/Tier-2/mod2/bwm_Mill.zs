@@ -14,6 +14,9 @@ val millRecipeMap as IItemStack[][IIngredient[]] = {
     [<ore:oreBornite>]:[<gregtech:meta_item_1:5360>],
     [<ore:oreTenorite>]:[<gregtech:meta_item_1:5358>],
     [<ore:oreTetrahedrite>]:[<gregtech:meta_item_1:5188>],
+    [<ore:oreTin>]:[<gregtech:meta_item_1:5071>],
+    [<ore:oreCassiterite>]:[<gregtech:meta_item_1:5098>],
+    [<ore:oreCassiteriteSand>]:[<gregtech:meta_item_1:5099>],
 };
 
 for output,input in millRecipeMap {
