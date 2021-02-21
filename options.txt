@@ -114,6 +114,8 @@ key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
+key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.chemthrowerSwitch:0
 key_ALT Menu:56
 key_Mode Switch:50
 key_Fly key:33
@@ -126,12 +128,10 @@ key_key.nextitem:26
 key_key.previtem:27
 key_key.placeitem:25
 key_key.debughandles:0
-key_key.immersiveengineering.magnetEquip:31
-key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
 key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
 key_invtweaks.key.sort:19
-key_开关喷气背包:45
+key_开关喷气背包:4
 key_打开火箭界面:46
 key_切换 RCS:19
 key_向右旋转载具:32

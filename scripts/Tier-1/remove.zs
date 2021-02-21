@@ -37,13 +37,16 @@ val removingArray = [
     /*Cuisine's recipe*/
     <cuisine:planks>,
     <cuisine:material:1>,
-    /*Natura's recipe*/
-    <natura:overworld_workbenches:*>,
+    /*BWM's recipe*/
+    <betterwithmods:cooking_pot:1>,
+    <betterwithmods:material>,
 ] as IItemStack[];
 
 
 //Remove by OreDict
 val removingODArray = [
+    <ore:fenceWood>,
+    <ore:fenceGateWood>,
 ] as IOreDictEntry[];
 
 //remove by Jeihide
@@ -51,6 +54,9 @@ val removingJEIArray = [
     <primal:quern:1>.withTag({type: "scoria"}),
     <primal:quern:2>.withTag({type: "purpurite"}),
     <primal:fishing_rod_corypha:2>,
+    <betterwithmods:block_dispenser>,
+    <appliedenergistics2:material:40>,
+    <thermalfoundation:material:22>,
 ] as IItemStack[];
 
 
