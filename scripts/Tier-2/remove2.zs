@@ -5,6 +5,7 @@ import crafttweaker.item.IIngredient;
 
 //Remove by ID
 val removingArray = [
+    <betterwithmods:wooden_axle>,
 ] as IItemStack[];
 
 
