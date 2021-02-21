@@ -39,6 +39,7 @@ val removingArray = [
     <cuisine:material:1>,
     /*BWM's recipe*/
     <betterwithmods:cooking_pot:1>,
+    <betterwithmods:material>,
 ] as IItemStack[];
 
 
@@ -56,7 +57,6 @@ val removingJEIArray = [
     <betterwithmods:block_dispenser>,
     <appliedenergistics2:material:40>,
     <thermalfoundation:material:22>,
-    <betterwithmods:material>,
 ] as IItemStack[];
 
 

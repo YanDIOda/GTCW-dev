@@ -24,7 +24,7 @@ recipes.addShaped(<betterwithmods:single_machine>,
                     [<enderio:item_material:9>,<primal:quern>.withTag({type: "sarsen"}),<enderio:item_material:9>],
                     [<minecraft:stone>,<betterwithmods:wooden_axle>,<minecraft:stone>]]);
 //Ender-IO's recipe
-recipes.addShaped(<enderio:item_material:9>,
+recipes.addShaped(<betterwithmods:material>,
                     [[<primal:flint_workblade>.anyDamage().transformDamage(2),<ore:plankWood>,null],
                     [<ore:plankWood>,null,<ore:plankWood>],
                     [null,<ore:plankWood>,null]]);
