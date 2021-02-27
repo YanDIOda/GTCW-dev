@@ -1,4 +1,5 @@
 #priority 200
+#suppress error
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
